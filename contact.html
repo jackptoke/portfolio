@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home: Jack Toke</title>
+  <link rel="stylesheet" href="./css/re-menu-style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div>
+        <img src="images/jack-logo-eis-light.png" width="150px" />
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="career.html">Career Plan</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>						
+        <li><a href="contact.html">Contact</a></li>		
+    </ul>
+  </section>
+
+  <main>
+      <div class="bg_img"></div>
+<div class="form_wrapper">
+  <div class="form_container">
+    <div class="title_container">
+      <h2>Please, get in touch for chat</h2>
+      <h3>I'll get back to you ASAP</h3>
+    </div>
+    <form method="POST" action="https://formspree.io/jackptoke@gmail.com">
+      <div class="row clearfix">
+        <div class="col_half">
+          <label>First name</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="first_name" placeholder="John" required />
+          </div>
+        </div>
+        <div class="col_half">
+          <label>Last name</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="last_name" placeholder="Doe" />
+          </div>
+        </div>
+      </div>
+      <div class="row clearfix">
+        <div class="col_half">
+          <label>Email</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="johndoe@gmail.com" required />
+          </div>
+        </div>
+        <div class="col_half">
+          <label>Phone</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="tel" name="phone" placeholder="Phone no" pattern="[0-9]{10}" />
+          </div>
+        </div>
+      </div>
+      <div class="row clearfix">
+        <div>
+          <label>Comments</label>
+          <div class="textarea_field"> <span><i aria-hidden="true" class="fa fa-comment"></i></span>
+            <textarea cols="46" rows="3" name="comments"></textarea>
+          </div>
+        </div>
+      </div>
+      <input class="button" type="submit" value="Sumbit" />
+    </form>
+  </div>
+</div>
+  </main>
+  
+  <footer>
+    <div class="footer">
+      <div class="social-bar">
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-github-square social-icon"></i></a>
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-linkedin social-icon"></i></a>
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-twitter-square social-icon"></i></a>
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-facebook-square social-icon"></i></a>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
