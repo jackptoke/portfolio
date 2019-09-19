@@ -1,11 +1,24 @@
-.footer{
+/* @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"; */
+/* footer {
+   margin-top: -60px; 
+} */
+.footer {
   height: 60px;
-  width: 100%;
-  bottom: 0px;
-  left: 0px;
-  background-color: #d90429;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: span 2;
+  width: 100vw;
+  /* background: linear-gradient(0deg, rgba(43,45,66,1) 0%, rgba(217,4,41,1) 98%); */
+  position: sticky;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #fff8f0;
+}
+
+.social-bar a {
+  margin: auto 5px;
 }

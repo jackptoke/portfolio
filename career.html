@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pure CSS responsive menu</title>
+  <link rel="stylesheet" href="./css/career.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div>
+        <img src="images/jack-logo-eis-light.png" width="150px" />
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="career.html">Career Plan</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>						
+        <li><a href="contact.html">Contact</a></li>		
+    </ul>
+  </section>
+
+  <main>
+      <div class="container career-container">
+          <h1 class="career-plan">My Career Plan</h1>
+          <div id="timeline">
+            <div class="timeline-item">
+              <div class="timeline-icon timeline-arrived">
+                  <i class="fab fa-react my-fa-icon"></i>
+              </div>
+              <div class="timeline-content">
+                <h2>2020: MERN Stack</h2>
+                
+                <p>
+                    My current goal is to become an expert in MongoDB, Express.js, REACT and Node.js by the end of this course. 
+                </p>
+                <img src="images/mern-img.png" width="100%" height="auto" />
+                <a href="#" class="btn">button</a>
+              </div>
+            </div>
+      
+            <div class="timeline-item">
+              <div class="timeline-icon timeline-future">
+                  <i class="fab fa-python my-fa-icon"></i>
+              </div>
+              <div class="timeline-content right">
+                <h2>2021: Full-stack Python</h2>
+                <p>
+                    The next milestone for my career is to become proficient in Python language, Django framework and some other libraries for building web application and other application by the fall of 2021.
+                </p>
+                <img src="images/python.png" width="100%" height="auto" />
+                <a href="#" class="btn">button</a>
+              </div>
+            </div>
+            <!--Start Time Piece-->
+            <div class="timeline-item">
+              <div class="timeline-icon timeline-future">
+                  <i class="fas fa-chart-line my-fa-icon"></i>
+              </div>
+              <div class="timeline-content">
+                <h2>2022: Data Engineer</h2>				
+                <p>
+                    Data engineering and machine learning is of a great interest to me.  I'm making it my long-term goal to become a data engineer.
+                </p>
+                <img src="images/data-engineering.png" width="100%" height="auto" />
+                <a href="#" class="btn">button</a>
+              </div>
+            </div>
+              <!--End Time Piece-->
+              
+          </div>
+        </div>
+  </main>
+<!-- partial -->
+  <footer>
+    <div class="footer">
+      <div class="social-bar">
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-github-square social-icon"></i></a>
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-linkedin social-icon"></i></a>
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-twitter-square social-icon"></i></a>
+          <a href="now-where.html" class="navbar-menu-item"><i class="fab fa-facebook-square social-icon"></i></a>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
