@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-@import "./footer.css";
+/* @import "./footer.css"; */
 
 h2 {
   vertical-align: center;
@@ -9,7 +9,7 @@ h2 {
 html, body {
   margin: 0;
   height: 100%;
-  background-image: url("./../images/fake_brick.png");
+  /* background-image: url("./../images/fake_brick.png"); */
 }
 
 * {
@@ -144,7 +144,7 @@ html, body {
 }
 
 .menu li a {
-  color: #edf2f4;
+  color: #171717;
   text-align: center;
   /* padding: 14px 16px;
   height: 70px; */

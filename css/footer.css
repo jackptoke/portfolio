@@ -16,9 +16,13 @@
 
 .social-icon {
   font-size: 30px;
-  color: #fff8f0;
+  color: #ffffff;
 }
 
 .social-bar a {
   margin: auto 5px;
+}
+
+.social-icon:hover {
+  color: #e89005;
 }
