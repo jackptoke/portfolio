@@ -11,7 +11,7 @@
   color: #FFF;
   height: 70px;
   padding: 1em;
-  z-index: 9;
+  
   /* float: left; */
 }
 
@@ -22,6 +22,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  z-index: 20;
 }
 
 .menu > li {
