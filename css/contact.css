@@ -185,3 +185,14 @@ main {
   color: #f0374d;
 }
 
+.social-icon-black {
+  font-size: 30px;
+  color: #f5ba1a;
+}
+
+.contact-detail{
+	text-align: left;
+	margin:-15px -15px 15px;
+	padding:15px 0;
+	border-bottom:1px dashed #ccc;
+}
