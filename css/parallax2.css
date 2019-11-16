@@ -90,7 +90,7 @@ transform-origin: 50% 100%;
 
 }
 
-#slide1:before {
+#slide1 {
  background-image: url("./../images/Mae_La_refugee_camp.jpg");
  background-size: cover;
  background-repeat: no-repeat;
@@ -104,7 +104,7 @@ transform-origin: 50% 100%;
  z-index:2;
 }
 
-#slide3:before {
+#slide3 {
  background-image: url("./../images/jack-wedding.jpg");
  background-size: cover;
  background-repeat: no-repeat;
@@ -118,7 +118,7 @@ transform-origin: 50% 100%;
   z-index:2;
 }
 
-#slide5:before {
+#slide5 {
   background-image: url("./../images/mutraw7.jpg");
   background-size: cover;
  background-repeat: no-repeat;
@@ -132,7 +132,7 @@ transform-origin: 50% 100%;
  background-repeat: no-repeat;
   z-index:2;
 }
-#slide7:before {
+#slide7 {
   background-image: url("./../images/coder-academy.jpg");
   background-size: cover;
  background-repeat: no-repeat;
