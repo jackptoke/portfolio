@@ -124,7 +124,7 @@ body h1 {
 } */
 .tabs .slider {
   position: relative;
-  width: 25%;
+  width: 50%;
   -webkit-transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
   transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
 }
@@ -139,6 +139,7 @@ body h1 {
 }
 .tabs .content {
   margin-top: 30px;
+  min-height: 400px;
 }
 .tabs .content section {
   display: none;
